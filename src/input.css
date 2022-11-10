@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav, h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p, a {
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.very-dark-blue {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.purple {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.light-blue {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.blue {
+  background-color: hsl(224, 93%, 58%);
+}
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
