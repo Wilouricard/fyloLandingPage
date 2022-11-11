@@ -3,7 +3,7 @@ import React from "react";
 export default function Two() {
   return (
     <div className="">
-      <img src="public\images\bg-curve-mobile.svg" alt="" className="w-full translate-y-2 z-0 relative"/>
+      <img src="\images\bg-curve-mobile.svg" alt="" className="w-full translate-y-2 z-0 relative"/>
       <div className="light-blue px-4">
         <img src="\images\illustration-2.svg" alt="" className="pt-8"/>
         <div className="pt-10 flex flex-col gap-5">
