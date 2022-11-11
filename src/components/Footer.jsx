@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="very-dark-blue text-white text-xs">
+    <footer className="very-dark-blue text-white text-xs md:px-20 md:pb-16">
       <div className="pl-10 pt-10 flex">
         <svg
         className="w-[200px] fill-white"
@@ -21,7 +21,7 @@ export default function Footer() {
         </svg>
         <p className="font-bold text-5xl -translate-x-32">Fylo</p>
       </div>
-      <div className="flex flex-col gap-5 pt-6 pl-10">
+      <div className="flex flex-col gap-5 pt-6 pl-10 md:flex-row md:justify-between">
         <div className="flex flex-col gap-3">
           <div className="flex gap-3">
             <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ export default function Footer() {
                 fill-rule="evenodd"
               />
             </svg>
-            <p>Phone: +1-543-123-4567</p>
+            <p>Phone: +33 123 45 67 89</p>
           </div>
           <div className="flex gap-3">
             <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
